@@ -54,11 +54,13 @@ const PostList = (props) => {
                 </div>
             ))}
             <div>
+                <h2>Related Commentsß</h2>
                 {commentData.map(comments => (
                     <p>{comments.body}</p>
                 ))}
             </div>
             <div>
+                <h2>Related Articles</h2>
                 <ul>
                     {relatedData.map((article, index) => (
                         <li>
